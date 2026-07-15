@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>聯絡及查詢 — 旅遊匯聚 TIPA</title>
+<meta name="description" content="聯絡旅遊匯聚：地址、電話、電郵及課程查詢表格。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tipa.css">
+<style>
+  .contact-grid { display: grid; gap: var(--s-7); grid-template-columns: 1fr; }
+  @media (min-width: 900px) { .contact-grid { grid-template-columns: 1fr 1.2fr; } }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">跳至主要內容</a>
+
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="index.html">
+      <span class="brand__name">旅遊匯聚</span>
+      <span class="brand__sub">Travel Industry Personnel Association</span>
+    </a>
+    <nav class="nav" aria-label="主導覽">
+      <a class="nav__link" href="index.html">主頁</a>
+      <a class="nav__link" href="courses.html">課程</a>
+      <a class="nav__link" href="courses.html#funding">資助計劃</a>
+      <a class="nav__link" href="about.html">關於本會</a>
+      <a class="nav__link" href="contact.html" aria-current="page">聯絡我們</a>
+    </nav>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-drawer">
+      <span class="nav-toggle__text">選單</span>
+    </button>
+  </div>
+  <div class="nav-drawer" id="nav-drawer">
+    <nav aria-label="主導覽（流動版）">
+      <a class="nav__link" href="index.html">主頁</a>
+      <a class="nav__link" href="courses.html">課程</a>
+      <a class="nav__link" href="courses.html#funding">資助計劃</a>
+      <a class="nav__link" href="about.html">關於本會</a>
+      <a class="nav__link" href="contact.html" aria-current="page">聯絡我們</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <div class="page-head">
+    <div class="container">
+      <h1 class="h-page">聯絡及查詢</h1>
+      <p class="section__intro">歡迎就課程報名、資助申請或本會事務與我們聯絡。</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container contact-grid">
+
+      <!-- Contact facts -->
+      <div>
+        <div class="section__head">
+          <h2 class="h-section">聯絡資料</h2>
+        </div>
+        <ul class="fact-list">
+          <li><span class="label">地址</span><span>九龍廣東道982號富誠商業中心18樓1804室</span></li>
+          <li><span class="label">電話</span><a href="tel:+85231171633" class="num">(852) 3117 1633</a></li>
+          <li><span class="label">傳真</span><span class="num">(852) 3421 2833</span></li>
+          <li><span class="label">電郵</span><a href="mailto:tipa@hotmail.com.hk">tipa@hotmail.com.hk</a></li>
+          <li><span class="label">辦公時間</span><span>[待提供]</span></li>
+          <li><span class="label">Facebook</span><a href="https://www.facebook.com/hktipa" rel="noopener">facebook.com/hktipa</a></li>
+        </ul>
+        <!-- Map embed: replace src with confirmed address embed URL -->
+        <div class="mt-6" style="border:1px solid var(--line); border-radius:var(--r-card); overflow:hidden;">
+          <iframe title="本會位置地圖" src="https://www.google.com/maps?q=%E5%BB%A3%E6%9D%B1%E9%81%93982%E8%99%9F%E5%AF%8C%E8%AA%A0%E5%95%86%E6%A5%AD%E4%B8%AD%E5%BF%83&output=embed" width="100%" height="260" style="border:0; display:block;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <p class="h-sub" style="color:#fff;">旅遊匯聚</p>
+        <p class="label mt-2">Travel Industry Personnel Association</p>
+        <ul class="mt-4">
+          <li>九龍廣東道982號富誠商業中心18樓1804室</li>
+          <li>電話：(852) 3117 1633　傳真：(852) 3421 2833</li>
+          <li>電郵：<a href="mailto:tipa@hotmail.com.hk">tipa@hotmail.com.hk</a></li>
+          <li>辦公時間：[待提供]</li>
+        </ul>
+      </div>
+      <div>
+        <p class="label">網站連結</p>
+        <ul class="mt-3">
+          <li><a href="courses.html">課程總覽</a></li>
+          <li><a href="courses.html#funding">資助計劃</a></li>
+          <li><a href="about.html">關於本會</a></li>
+          <li><a href="contact.html">聯絡我們</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="label">關注我們</p>
+        <ul class="mt-3">
+          <li><a href="https://www.facebook.com/hktipa" rel="noopener">Facebook 專頁</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footnote">旅遊匯聚為旅遊業監管局認可課程機構。課程資料以本會最終公布為準。<br>© 旅遊匯聚 Travel Industry Personnel Association</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

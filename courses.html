@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>課程總覽 — 旅遊匯聚 TIPA</title>
+<meta name="description" content="旅遊匯聚全部課程：持續專業進修課程、領隊試前訓練課程、旅遊行業發展基金資助文化課程及急救證書課程。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tipa.css">
+<style>
+  .filter-tabs { display: flex; flex-wrap: wrap; gap: var(--s-2); margin-bottom: var(--s-6); }
+  .filter-tabs button {
+    font: inherit; font-size: 15px; font-weight: 500;
+    background: var(--paper); color: var(--ink);
+    border: 1px solid var(--line); border-radius: var(--r-ctl);
+    min-height: 40px; padding: 0 var(--s-4); cursor: pointer;
+  }
+  .filter-tabs button[aria-pressed="true"] {
+    background: var(--accent); border-color: var(--accent); color: #fff;
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">跳至主要內容</a>
+
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="index.html">
+      <span class="brand__name">旅遊匯聚</span>
+      <span class="brand__sub">Travel Industry Personnel Association</span>
+    </a>
+    <nav class="nav" aria-label="主導覽">
+      <a class="nav__link" href="index.html">主頁</a>
+      <a class="nav__link" href="courses.html" aria-current="page">課程</a>
+      <a class="nav__link" href="#funding">資助計劃</a>
+      <a class="nav__link" href="about.html">關於本會</a>
+      <a class="nav__link" href="contact.html">聯絡我們</a>
+    </nav>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-drawer">
+      <span class="nav-toggle__text">選單</span>
+    </button>
+  </div>
+  <div class="nav-drawer" id="nav-drawer">
+    <nav aria-label="主導覽（流動版）">
+      <a class="nav__link" href="index.html">主頁</a>
+      <a class="nav__link" href="courses.html" aria-current="page">課程</a>
+      <a class="nav__link" href="#funding">資助計劃</a>
+      <a class="nav__link" href="about.html">關於本會</a>
+      <a class="nav__link" href="contact.html">聯絡我們</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <div class="page-head">
+    <div class="container">
+      <h1 class="h-page">課程總覽</h1>
+      <p class="section__intro">本會全部課程一覽。標示「續牌適用」之課程符合導遊／領隊持續專業進修計劃要求。</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="filter-tabs" role="group" aria-label="課程類別篩選">
+        <button data-filter="all" aria-pressed="true">全部</button>
+        <button data-filter="cpd" aria-pressed="false">持續專業進修</button>
+        <button data-filter="entry" aria-pressed="false">入行訓練</button>
+        <button data-filter="fund" aria-pressed="false">基金資助課程</button>
+        <button data-filter="firstaid" aria-pressed="false">急救課程</button>
+      </div>
+
+      <div class="card-grid">
+
+        <article class="card" data-category="cpd">
+          <div class="card__meta">
+            <span class="label label--code">[課程編號]</span>
+            <span class="label text-notice">續牌適用</span>
+          </div>
+          <h3 class="card__title">導遊／領隊持續專業進修課程（A、B、C 部分）</h3>
+          <p class="card__body">旅遊業監管局認可之持續專業進修計劃課程，供現職導遊及領隊完成續牌所需之進修時數。時數：[時數]。</p>
+          <div class="card__foot">
+            <span class="num text-notice">[HK$ 費用]</span>
+            <a href="courses.html">課程詳情</a>
+          </div>
+        </article>
+
+        <article class="card" data-category="entry">
+          <div class="card__meta">
+            <span class="label label--code">PTE235TIPA</span>
+            <span class="label">旅監局批准舉辦</span>
+          </div>
+          <h3 class="card__title">領隊試前訓練課程</h3>
+          <p class="card__body">為有志考取領隊證人士而設之試前訓練課程，內容針對領隊資格考試。時數：[時數]。</p>
+          <div class="card__foot">
+            <span class="num text-notice">[HK$ 費用]</span>
+            <a href="course-detail.html">課程詳情</a>
+          </div>
+        </article>
+
+        <article class="card" data-category="fund">
+          <div class="card__meta">
+            <span class="label label--code">[課程編號]</span>
+            <span class="label">基金資助</span>
+          </div>
+          <h3 class="card__title">中上環古昔文化課程</h3>
+          <p class="card__body">認識中上環區歷史及文化，適合導賞及帶團應用。時數：12 小時。</p>
+          <div class="card__foot">
+            <span class="num text-notice">[HK$ 費用]</span>
+            <a href="courses.html">課程詳情</a>
+          </div>
+        </article>
+
+        <article class="card" data-category="fund">
+          <div class="card__meta">
+            <span class="label label--code">[課程編號]</span>
+            <span class="label">基金資助</span>
+          </div>
+          <h3 class="card__title">東區沿革歷史課程</h3>
+          <p class="card__body">認識東區發展歷史過程及東區文化。時數：[時數]。</p>
+          <div class="card__foot">
+            <span class="num text-notice">[HK$ 費用]</span>
+            <a href="courses.html">課程詳情</a>
+          </div>
+        </article>
+
+        <article class="card" data-category="fund">
+          <div class="card__meta">
+            <span class="label label--code">[課程編號]</span>
+            <span class="label">基金資助</span>
+          </div>
+          <h3 class="card__title">油尖旺文化遊踪課程</h3>
+          <p class="card__body">探索油尖旺區文化及歷史景點。時數：[時數]。</p>
+          <div class="card__foot">
+            <span class="num text-notice">[HK$ 費用]</span>
+            <a href="courses.html">課程詳情</a>
+          </div>
+        </article>
+
+        <article class="card" data-category="fund">
+          <div class="card__meta">
+            <span class="label label--code">[課程編號]</span>
+            <span class="label">基金資助</span>
+          </div>
+          <h3 class="card__title">長洲海島文化簡述</h3>
+          <p class="card__body">簡介長洲海島文化及地區特色。時數：[時數]。</p>
+          <div class="card__foot">
+            <span class="num text-notice">[HK$ 費用]</span>
+            <a href="courses.html">課程詳情</a>
+          </div>
+        </article>
+
+        <article class="card" data-category="fund">
+          <div class="card__meta">
+            <span class="label label--code">[課程編號]</span>
+            <span class="label">基金資助</span>
+          </div>
+          <h3 class="card__title">新界圍村簡略</h3>
+          <p class="card__body">簡介新界圍村歷史及傳統文化。時數：[時數]。</p>
+          <div class="card__foot">
+            <span class="num text-notice">[HK$ 費用]</span>
+            <a href="courses.html">課程詳情</a>
+          </div>
+        </article>
+
+        <article class="card" data-category="firstaid">
+          <div class="card__meta">
+            <span class="label">專業資歷</span>
+          </div>
+          <h3 class="card__title">急救證書課程（8 小時）</h3>
+          <p class="card__body">8 小時急救證書課程，考試合格後獲發證書。持有效導遊證／領隊證或現職旅行社職員可申請 70% 課程資助。</p>
+          <div class="card__foot">
+            <span class="num text-notice">[HK$ 費用]</span>
+            <a href="courses.html">課程詳情</a>
+          </div>
+        </article>
+
+        <article class="card" data-category="firstaid">
+          <div class="card__meta">
+            <span class="label">專業資歷</span>
+          </div>
+          <h3 class="card__title">急救重溫課程</h3>
+          <p class="card__body">只供曾修畢 8 小時急救證書課程人士報讀，重溫課程亦須進行考試，合格才獲證書。</p>
+          <div class="card__foot">
+            <span class="num text-notice">[HK$ 費用]</span>
+            <a href="courses.html">課程詳情</a>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="form-note mt-6">課程日期、費用及名額以本會最終公布為準。歡迎旅行社包班，詳情請<a href="contact.html">聯絡本會</a>。</p>
+    </div>
+  </section>
+
+  <!-- Funding -->
+  <section class="section section--warm" id="funding">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="h-section">課程資助計劃</h2>
+        <p class="section__intro">報讀本會課程前，建議先了解以下兩項資助，實際資格及安排以主辦機構公布為準。</p>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <h3 class="card__title">旅遊從業人員培訓資助計劃（第二階段）</h3>
+          <p class="card__body">合資格人士完成指定培訓活動後，可以實報實銷方式，就每個於 2025 年 9 月 1 日至 2026 年 8 月 31 日期間獲發之導遊牌照及／或領隊牌照（不包括續期牌照），申請最多 HK$2,000 資助。</p>
+          <div class="card__foot"><span class="label">詳情請向旅遊業監管局查詢</span></div>
+        </article>
+        <article class="card">
+          <h3 class="card__title">旅遊行業發展基金（培訓活動）</h3>
+          <p class="card__body">持有效導遊證／領隊證或現職旅行社職員，報讀指定課程（如急救課程及文化導賞課程）可申請 70% 課程資助。查詢：香港旅遊業議會 2969 8157。</p>
+          <div class="card__foot"><span class="label">以香港旅遊業議會公布為準</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <p class="h-sub" style="color:#fff;">旅遊匯聚</p>
+        <p class="label mt-2">Travel Industry Personnel Association</p>
+        <ul class="mt-4">
+          <li>九龍廣東道982號富誠商業中心18樓1804室</li>
+          <li>電話：(852) 3117 1633　傳真：(852) 3421 2833</li>
+          <li>電郵：<a href="mailto:tipa@hotmail.com.hk">tipa@hotmail.com.hk</a></li>
+          <li>辦公時間：[待提供]</li>
+        </ul>
+      </div>
+      <div>
+        <p class="label">網站連結</p>
+        <ul class="mt-3">
+          <li><a href="courses.html">課程總覽</a></li>
+          <li><a href="courses.html#funding">資助計劃</a></li>
+          <li><a href="about.html">關於本會</a></li>
+          <li><a href="contact.html">聯絡我們</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="label">關注我們</p>
+        <ul class="mt-3">
+          <li><a href="https://www.facebook.com/hktipa" rel="noopener">Facebook 專頁</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footnote">旅遊匯聚為旅遊業監管局認可課程機構。課程資料以本會最終公布為準。<br>© 旅遊匯聚 Travel Industry Personnel Association</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
